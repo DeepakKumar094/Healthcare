@@ -27,7 +27,7 @@ kind: Service
 metadata:
   name: health-care
 spec:
-  type: NodePort
+  type: 31002
   ports:
     - port: 8081
       targetPort: 8081
