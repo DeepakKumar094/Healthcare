@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: health-care
-          image: kumar198/health-care-project:1.0
+          image: kumar198/health-care-image:1.0
           ports:
             - containerPort: 8081
           env:
